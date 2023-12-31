@@ -1,14 +1,14 @@
 
 # Třída PojistenaOsoba obsahuje informace o pojištěné osobě
 class PojistenaOsoba:
-    def __init__(self, jmeno, prijmeni, vek, mobile_num):
+    def __init__(self, jmeno, prijmeni, vek, mobilni_cislo):
         self.jmeno = jmeno
         self.prijmeni = prijmeni
         self.vek = vek
-        self.mobile_num = mobile_num
+        self.mobilni_cislo = mobilni_cislo
 
     def __str__(self):
-        return f"Jméno: {self.jmeno}, Příjmení: {self.prijmeni}, Věk: {self.vek}, Mobilní číslo: {self.mobile_num}"
+        return f"Jméno: {self.jmeno}, Příjmení: {self.prijmeni}, Věk: {self.vek}, Mobilní číslo: {self.mobilni_cislo}"
 
 
 # Třída EvidencePojisteni obsahuje funkce pracující se seznamem pojištěných osob
