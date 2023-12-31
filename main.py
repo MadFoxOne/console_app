@@ -24,10 +24,10 @@ def main():
                 continue
 
             prijmeni = input("Zadejte příjmení: ")
-            mobile_num = input("Zadejte telefonní číslo: ")
+            mobilni_cislo = input("Zadejte telefonní číslo: ")
             vek = int(input("Zadejte věk: "))
 
-            pojistena_osoba = PojistenaOsoba(jmeno, prijmeni, vek, mobile_num)
+            pojistena_osoba = PojistenaOsoba(jmeno, prijmeni, vek, mobilni_cislo)
             evidence.vlozeni_pojisteneho(pojistena_osoba)
 
         elif volba == "2":  # Volba pro kompletní výpis seznamu
