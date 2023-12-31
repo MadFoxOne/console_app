@@ -29,7 +29,10 @@ class EvidencePojisteni:
             for pojistena_osoba in nalezeni:
                 print(str(pojistena_osoba))
         else:
-            print(f"Pojistená osoba s jménem {jmeno} {prijmeni} nebyla nalezena.")
+            print(f"Pojistená osoba {jmeno} {prijmeni} nebyla nalezena.")
+
+        print("Pokračujte libovolnou klávesou...")
+        input()
 
     def vypis_vsech_pojistenych(self):  # Funkce slouží k výpisu záznamů všech pojištěných
         if self.pojisteni_seznam:
@@ -37,3 +40,6 @@ class EvidencePojisteni:
                 print(str(pojistena_osoba))
         else:
             print("Evidence pojistění je prázdná.")
+
+        print("Pokračujte libovolnou klávesou...")
+        input()
