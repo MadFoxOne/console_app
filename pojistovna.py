@@ -18,7 +18,8 @@ class EvidencePojisteni:
 
     def vlozeni_pojisteneho(self, pojistena_osoba):  # Funkce slouží pro vložení pojištěného (na konec seznamu)
         self.pojisteni_seznam.append(pojistena_osoba)
-        print(f"Pojistená osoba {pojistena_osoba.jmeno} {pojistena_osoba.prijmeni} byla úspěšně přidána.")
+        print("Data byla uložena. Pokračujte libovolnou klávesou... ")
+        input()
 
     def vyhledani_pojisteneho(self, jmeno, prijmeni):  # Funkce slouží k hledání pojištěného podle jména a příjmení
         nalezeni = [pojistena_osoba for pojistena_osoba in self.pojisteni_seznam
