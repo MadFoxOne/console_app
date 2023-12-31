@@ -8,7 +8,7 @@ class PojistenaOsoba:
         self.mobilni_cislo = mobilni_cislo
 
     def __str__(self):
-        return f"Jméno: {self.jmeno}, Příjmení: {self.prijmeni}, Věk: {self.vek}, Mobilní číslo: {self.mobilni_cislo}"
+        return f"{self.jmeno}    {self.prijmeni}   {self.vek}        {self.mobilni_cislo}"
 
 
 # Třída EvidencePojisteni obsahuje funkce pracující se seznamem pojištěných osob
